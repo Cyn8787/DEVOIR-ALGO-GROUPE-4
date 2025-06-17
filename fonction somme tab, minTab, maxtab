@@ -1,1 +1,12 @@
-
+tab(
+    main(
+        "Fonction sommeTab, minTab, maxTab",
+        "Cette fonction permet de calculer la somme, le minimum et le maximum d'un tableau.",
+        "sommeTab",
+        "minTab",
+        "maxTab",
+        "sommeTab(tab)",
+        "minTab(tab)",
+        "maxTab(tab)",
+    )
+)
