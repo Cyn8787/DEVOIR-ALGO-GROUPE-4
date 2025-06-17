@@ -8,7 +8,7 @@ sommeparobjet= somme+tab[i].montant;
    }
    return sommeparobjet;
 }
-//Procédure recherche par id et factureparétudiant par Cynthia Murielle Diadhiou
+//Procédure factureparetudiant par Cynthia Murielle Diadhiou
 void  afficherfactureparetudiant(struct facture tab[N]){
     int r;
     int idrecherche;
@@ -23,5 +23,14 @@ void  afficherfactureparetudiant(struct facture tab[N]){
 }
 //fonction principale pour tester
 main(){
-    
+    remplirTab(tab);
+    afficheTab(tab);
+    printf("la somme totale des montants: %f", sommetab);
+    printf("le montant minimum: %f", mintab);
+    printf("le montant maximal: %f" ,maxtab);
+    printf("somme des factures par objet %f" , sommeparobjet);
+    int idrecherche;
+    printf("entrez id de l'étudiant:");
+    scanf("%d" ,&idrecherche);
+afficherfactureparetudiant(tab, idrecherche);
 }
