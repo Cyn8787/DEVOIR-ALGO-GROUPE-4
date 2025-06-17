@@ -1,5 +1,5 @@
-//somme 
-float sommemontant(struct facture tab[N] ){
+//somme total des montants par fatou mbengue
+float sommemontant (struct facture tab[N]){
 int i;
 
     float somme = 0;
@@ -8,6 +8,7 @@ int i;
     }
     return somme;
 }
+//le montant minimal par fatou mbengue
 float minmontant(struct facture tab[N]) {
     float min = tab[0].montant;
     for (int i = 1; i < N; i++) {
@@ -17,6 +18,7 @@ float minmontant(struct facture tab[N]) {
     }
     return min;
 }
+//le montant minimal par fatou mbengue
 float maxmontant(struct facture tab[N]) {
     float max = tab[0].montant;
     for (int i = 1; i < N; i++) {
