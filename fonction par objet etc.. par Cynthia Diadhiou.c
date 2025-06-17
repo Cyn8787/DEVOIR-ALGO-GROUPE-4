@@ -15,7 +15,13 @@ void  afficherfactureparetudiant(struct facture tab[N]){
     printf("veuillez saisir l'id de l'étudiant à chercher");
     scanf("%d",&idrecherche);
     for(i=0; i<N; i++){
-        if(tab[i.idetudiant==idrecherche])
+        if(tab[i].idetudiant==idrecherche){
+            printf("La facture est: %d %f %s %d", tab[i].numero , tab[i].montant , tab[i].objet , tab[i].idetudiant);
+        }
     }
 
+}
+//fonction principale pour tester
+main(){
+    
 }
