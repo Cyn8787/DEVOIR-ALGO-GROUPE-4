@@ -25,9 +25,9 @@ void  afficherfactureparetudiant(struct facture tab[N]){
 main(){
     remplirTab(tab);
     afficheTab(tab);
-    printf("la somme totale des montants: %f", sommetab);
-    printf("le montant minimum: %f", mintab);
-    printf("le montant maximal: %f" ,maxtab);
+    printf("la somme totale des montants: %f", somme);
+    printf("le montant minimum: %f", min);
+    printf("le montant maximal: %f" ,max);
     printf("somme des factures par objet %f" , sommeparobjet);
     int idrecherche;
     printf("entrez id de l'étudiant:");
