@@ -10,8 +10,11 @@ sommeparobjet= somme+tab[i].montant;
 //Procédure recherche par id et factureparétudiant par Cynthia Murielle Diadhiou
 void  afficherfactureparétudiant(struct facture tab[N]){
     int r;
-    printf("veuillez saisir l'id de l'étudiant");
-    scanf("%d",&r);
-    etudiant=fopen("etudiant.txt","r+");
-    while(!feof(personne,"%d %s %s %s", &tab[i].idetudiant,))
+    int idrecherche;
+    printf("veuillez saisir l'id de l'étudiant à chercher");
+    scanf("%d",&idrecherche);
+    for(i=0; i<N; i++){
+        if(tab[i.idetudiant==idrecherche])
+    }
+   
 }
